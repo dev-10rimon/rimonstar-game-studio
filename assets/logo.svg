@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a9e7e"/>
+      <stop offset="100%" stop-color="#5a7a5e"/>
+    </linearGradient>
+  </defs>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" letter-spacing="6">
+    <text x="0" y="140" font-size="110" fill="#e8e8e8" letter-spacing="2">RIMONSTAR</text>
+    <text x="6" y="240" font-size="44" fill="#888888" font-weight="300" letter-spacing="24">GAME STUDIO</text>
+  </g>
+  <g transform="translate(0,280)">
+    <line x1="0" y1="0" x2="180" y2="0" stroke="url(#logoGrad)" stroke-width="2"/>
+    <circle cx="180" cy="0" r="5" fill="#7a9e7e"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080808"/>
+      <stop offset="100%" stop-color="#0c0c0c"/>
+    </linearGradient>
+    <radialGradient id="aboutGlow" cx="30%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7a9e7e" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#7a9e7e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#aboutBg)"/>
+  <rect width="1600" height="900" fill="url(#aboutGlow)"/>
+  <!-- Three pillar icons -->
+  <g opacity="0.8">
+    <!-- Original Ideas - lightbulb/diamond shape -->
+    <g transform="translate(300,350)" opacity="0.15" stroke="#7a9e7e" stroke-width="1.5" fill="none">
+      <polygon points="0,-60 50,-20 30,50 -30,50 -50,-20"/>
+      <line x1="-50" y1="-20" x2="50" y2="-20"/>
+      <line x1="0" y1="-60" x2="0" y2="50"/>
+    </g>
+    <!-- Gameplay - controller abstract -->
+    <g transform="translate(800,350)" opacity="0.15" stroke="#7a9e7e" stroke-width="1.5" fill="none">
+      <rect x="-60" y="-25" width="120" height="50" rx="25"/>
+      <circle cx="-30" cy="0" r="6"/>
+      <circle cx="30" cy="0" r="6"/>
+      <line x1="-10" y1="-10" x2="-10" y2="10"/>
+      <line x1="-20" y1="0" x2="0" y2="0"/>
+    </g>
+    <!-- Craft - precision tool -->
+    <g transform="translate(1300,350)" opacity="0.15" stroke="#7a9e7e" stroke-width="1.5" fill="none">
+      <circle r="40"/>
+      <circle r="20"/>
+      <line x1="0" y1="-50" x2="0" y2="50"/>
+      <line x1="-50" y1="0" x2="50" y2="0"/>
+    </g>
+  </g>
+  <text x="300" y="520" text-anchor="middle" font-family="Arial" font-size="16" fill="#666" letter-spacing="6">ORIGINAL IDEAS</text>
+  <text x="800" y="520" text-anchor="middle" font-family="Arial" font-size="16" fill="#666" letter-spacing="6">GAMEPLAY</text>
+  <text x="1300" y="520" text-anchor="middle" font-family="Arial" font-size="16" fill="#666" letter-spacing="6">CRAFT</text>
+  <rect width="1600" height="900" fill="#000" opacity="0.1"/>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "name": "rimonstar-game-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "RIMONSTAR Game Studio — cinematic static website",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "node build.mjs",
+    "preview": "npx serve dist"
+  }
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News — RIMONSTAR Game Studio</title>
+  <meta name="description" content="The latest news, studio updates, and development journals from RIMONSTAR Game Studio.">
+  <link rel="canonical" href="https://YOURDOMAIN.com/news.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="News — RIMONSTAR Game Studio">
+  <meta property="og:description" content="Latest news and updates from RIMONSTAR Game Studio.">
+  <meta property="og:url" content="https://YOURDOMAIN.com/news.html">
+  <meta property="og:image" content="https://YOURDOMAIN.com/assets/hero-bg.svg">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav scrolled" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="RIMONSTAR Game Studio home">
+        <img src="assets/logo-small.svg" alt="RIMONSTAR Game Studio">
+      </a>
+      <div class="nav-center">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="games.html" class="nav-link">Games</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="news.html" class="nav-link active">News</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-right">
+        <span class="nav-lang">EN</span>
+        <button class="nav-menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== MOBILE MENU ===== -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+    <button class="mobile-menu-close" aria-label="Close menu">&times;</button>
+    <nav class="mobile-menu-nav">
+      <a href="index.html" class="mobile-menu-link">Home</a>
+      <a href="games.html" class="mobile-menu-link">Games</a>
+      <a href="about.html" class="mobile-menu-link">About</a>
+      <a href="news.html" class="mobile-menu-link">News</a>
+      <a href="contact.html" class="mobile-menu-link">Contact</a>
+    </nav>
+    <div class="mobile-menu-footer">RIMONSTAR GAME STUDIO</div>
+  </div>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <section class="section" style="padding-top: calc(var(--nav-height) + var(--sp-8)); padding-bottom: 0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">News</span>
+        <h1 class="display-2">Latest News</h1>
+        <p class="body-lg" style="margin-top: 24px;">
+          Studio updates, development journals, and announcements from RIMONSTAR Game Studio.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWS ARTICLES ===== -->
+  <section class="section" style="padding-top: var(--sp-5);">
+    <div class="container">
+      <div class="news-grid" style="grid-template-columns: 1fr; gap: 0;">
+
+        <!-- Article 1 -->
+        <article id="article-1" class="reveal" style="padding: var(--sp-6) 0; border-top: 1px solid var(--border-color);">
+          <div style="display: grid; grid-template-columns: 300px 1fr; gap: var(--sp-5); align-items: start;">
+            <div class="cinema-image" style="aspect-ratio: 4/3;">
+              <img src="assets/news-1.svg" alt="New game project announcement">
+            </div>
+            <div>
+              <div class="news-item-meta" style="margin-bottom: 16px;">
+                <span class="news-item-date">January 2026</span>
+                <span class="news-item-cat">Studio Update</span>
+              </div>
+              <h2 class="news-item-title" style="font-size: 1.75rem; margin-bottom: 16px;">New Game Project in Development</h2>
+              <p class="body-md" style="margin-bottom: 16px;">
+                We've begun early development on a new original project. While it's too early to share specifics,
+                we can say that this project explores a different direction from our previous work — one that
+                interests us creatively and pushes us into new territory.
+              </p>
+              <p class="body-md" style="margin-bottom: 16px;">
+                More details will be shared as the vision takes shape. For now, we're focused on prototyping
+                and finding the core of what makes this experience worth building.
+              </p>
+              <a href="news.html" class="link-arrow">Read More</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article id="article-2" class="reveal" style="padding: var(--sp-6) 0; border-top: 1px solid var(--border-color);">
+          <div style="display: grid; grid-template-columns: 300px 1fr; gap: var(--sp-5); align-items: start;">
+            <div class="cinema-image" style="aspect-ratio: 4/3;">
+              <img src="assets/news-2.svg" alt="Block Puzzle Green Valley development update">
+            </div>
+            <div>
+              <div class="news-item-meta" style="margin-bottom: 16px;">
+                <span class="news-item-date">December 2025</span>
+                <span class="news-item-cat">Development</span>
+              </div>
+              <h2 class="news-item-title" style="font-size: 1.75rem; margin-bottom: 16px;">Block Puzzle: Green Valley — Dev Update</h2>
+              <p class="body-md" style="margin-bottom: 16px;">
+                A look at the current state of Green Valley's puzzle mechanics. We've been refining the core loop —
+                how blocks feel when they land, how lines clear, and how the valley responds to the player's actions.
+              </p>
+              <p class="body-md" style="margin-bottom: 16px;">
+                The visual direction is also taking shape. We want the landscape to feel alive without being
+                distracting — a quiet backdrop that complements the puzzle rather than competing with it.
+              </p>
+              <a href="news.html" class="link-arrow">Read More</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 3 -->
+        <article id="article-3" class="reveal" style="padding: var(--sp-6) 0; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+          <div style="display: grid; grid-template-columns: 300px 1fr; gap: var(--sp-5); align-items: start;">
+            <div class="cinema-image" style="aspect-ratio: 4/3;">
+              <img src="assets/news-3.svg" alt="RIMONSTAR Game Studio new chapter">
+            </div>
+            <div>
+              <div class="news-item-meta" style="margin-bottom: 16px;">
+                <span class="news-item-date">November 2025</span>
+                <span class="news-item-cat">Studio</span>
+              </div>
+              <h2 class="news-item-title" style="font-size: 1.75rem; margin-bottom: 16px;">RIMONSTAR: A New Chapter</h2>
+              <p class="body-md" style="margin-bottom: 16px;">
+                An introduction to the studio's direction, creative philosophy, and the kinds of experiences we aim to build.
+                This is the first of what will be regular updates as we grow and share our work with the world.
+              </p>
+              <p class="body-md" style="margin-bottom: 16px;">
+                We're an independent studio, and we intend to stay that way. Our focus is on original projects
+                that we believe in — games that are worth the time it takes to make them well.
+              </p>
+              <a href="news.html" class="link-arrow">Read More</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-logo">
+            <img src="assets/footer-logo.svg" alt="RIMONSTAR Game Studio">
+          </div>
+          <p class="footer-brand-text">
+            An independent game studio creating original games and interactive experiences.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms &amp; Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contact</h4>
+          <ul>
+            <li><a href="mailto:contact@YOURDOMAIN.com">contact@YOURDOMAIN.com</a></li>
+            <li><a href="mailto:developer@YOURDOMAIN.com">developer@YOURDOMAIN.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2026 RIMONSTAR Game Studio. All rights reserved.</span>
+        <div class="footer-legal">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

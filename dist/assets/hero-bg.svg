@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="50%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+    <radialGradient id="heroGlow" cx="65%" cy="40%" r="45%">
+      <stop offset="0%" stop-color="#7a9e7e" stop-opacity="0.06"/>
+      <stop offset="60%" stop-color="#7a9e7e" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#7a9e7e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="heroFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#heroBg)"/>
+  <rect width="1920" height="1080" fill="url(#heroGlow)"/>
+  <!-- Atmospheric layers -->
+  <g opacity="0.04" stroke="#e8e8e8" fill="none" stroke-width="0.5">
+    <!-- Horizon lines -->
+    <line x1="0" y1="350" x2="1920" y2="350"/>
+    <line x1="0" y1="500" x2="1920" y2="500"/>
+    <line x1="0" y1="650" x2="1920" y2="650"/>
+    <line x1="0" y1="780" x2="1920" y2="780"/>
+  </g>
+  <!-- Abstract mountain silhouettes -->
+  <path d="M0 650 L300 480 L500 540 L750 420 L1000 500 L1250 400 L1500 460 L1920 520 L1920 1080 L0 1080 Z" fill="#0c0c0c" opacity="0.5"/>
+  <path d="M0 750 L200 620 L450 680 L700 560 L950 640 L1200 540 L1450 600 L1700 560 L1920 600 L1920 1080 L0 1080 Z" fill="#0a0a0a" opacity="0.7"/>
+  <path d="M0 850 L250 760 L500 800 L800 720 L1100 770 L1400 730 L1700 760 L1920 770 L1920 1080 L0 1080 Z" fill="#060606" opacity="0.9"/>
+  <rect width="1920" height="200" y="880" fill="url(#heroFloor)"/>
+  <!-- Stars -->
+  <g fill="#e8e8e8">
+    <circle cx="200" cy="120" r="1" opacity="0.5"/>
+    <circle cx="500" cy="80" r="0.8" opacity="0.3"/>
+    <circle cx="800" cy="200" r="1.2" opacity="0.4"/>
+    <circle cx="1100" cy="150" r="0.8" opacity="0.3"/>
+    <circle cx="1400" cy="100" r="1" opacity="0.4"/>
+    <circle cx="1700" cy="180" r="0.8" opacity="0.3"/>
+    <circle cx="350" cy="250" r="0.6" opacity="0.2"/>
+    <circle cx="650" cy="300" r="0.6" opacity="0.2"/>
+    <circle cx="950" cy="90" r="0.5" opacity="0.2"/>
+    <circle cx="1250" cy="280" r="0.7" opacity="0.25"/>
+    <circle cx="1550" cy="230" r="0.5" opacity="0.2"/>
+  </g>
+  <!-- Subtle accent line at horizon -->
+  <line x1="0" y1="650" x2="1920" y2="650" stroke="#7a9e7e" stroke-width="0.5" opacity="0.08"/>
+  <!-- Grain -->
+  <rect width="1920" height="1080" fill="#000" opacity="0.05"/>
+</svg>

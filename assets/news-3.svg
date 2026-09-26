@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="news3Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080808"/>
+      <stop offset="100%" stop-color="#0c0c0c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#news3Bg)"/>
+  <!-- Opening door / new chapter -->
+  <g opacity="0.1" stroke="#e8e8e8" stroke-width="1" fill="none">
+    <rect x="320" y="180" width="160" height="280"/>
+    <rect x="340" y="200" width="120" height="240"/>
+    <line x1="400" y1="200" x2="400" y2="440"/>
+  </g>
+  <line x1="400" y1="180" x2="400" y2="460" stroke="#7a9e7e" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="400" cy="320" r="3" fill="#7a9e7e" opacity="0.3"/>
+  <rect width="800" height="600" fill="#000" opacity="0.15"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="news1Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#0e0e0e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#news1Bg)"/>
+  <g opacity="0.1" stroke="#7a9e7e" stroke-width="1" fill="none">
+    <circle cx="400" cy="300" r="120"/>
+    <circle cx="400" cy="300" r="80"/>
+    <circle cx="400" cy="300" r="40"/>
+    <line x1="280" y1="300" x2="520" y2="300"/>
+    <line x1="400" y1="180" x2="400" y2="420"/>
+  </g>
+  <circle cx="400" cy="300" r="5" fill="#7a9e7e" opacity="0.3"/>
+  <rect width="800" height="600" fill="#000" opacity="0.15"/>
+</svg>
