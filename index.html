@@ -251,23 +251,31 @@
                 </div>
 
                 <!-- Right: Contact Form -->
-                <div class="contact-form-wrapper">
-                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent.'); this.reset();">
-                        <div class="form-group">
-                            <label>Your Name</label>
-                            <input type="text" placeholder="John Doe" required>
-                        </div>
-                        <div class="form-group">
-                            <label>Your Email</label>
-                            <input type="email" placeholder="john@example.com" required>
-                        </div>
-                        <div class="form-group">
-                            <label>Message</label>
-                            <textarea placeholder="How can we help you?" rows="4" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn--primary" style="width: 100%;">Send Message</button>
-                    </form>
-                </div>
+               <div class="contact-form-wrapper">
+    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        
+        <!-- এখানে আপনার Web3Forms থেকে পাওয়া Access Key বসান -->
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+        
+        <!-- ইমেইলের সাবজেক্ট কেমন হবে -->
+        <input type="hidden" name="subject" value="New message from RIMONSTAR Website">
+        
+        <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" name="name" placeholder="John Doe" required>
+        </div>
+        <div class="form-group">
+            <label>Your Email</label>
+            <input type="email" name="email" placeholder="john@example.com" required>
+        </div>
+        <div class="form-group">
+            <label>Message</label>
+            <textarea name="message" placeholder="How can we help you?" rows="4" required></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn--primary" style="width: 100%;">Send Message</button>
+    </form>
+</div>
             </div>
 
         </div>
